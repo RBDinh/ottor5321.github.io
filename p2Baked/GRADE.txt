@@ -1,0 +1,19 @@
+Randy Dinh
+CSCI 4070
+The game contains 3 levels; level1, level2, and debugRoom(only in name and design, based off of old impactjs level with some tuneups)
+Level 1 contains two layers of parallax. The parallax could have been done better if my artistic skills were decent enough
+There is (as of writing) no splash screen or top down level successfully implemented
+Level design was done primarily in a platformer type game. Becomes more challenging as you progress from level1 to level2
+Game theme is slaying princesses and committing regicide to rescue the zombie.
+Box2d and selfportrait were not successfully implmented
+Main player designed based on the red mage of final fantasy and plays well
+Can run, fall, jump, swim(altered animation of jumping and falling), fly(used the bounce boards to test), climb(extremely sped up swim animation)
+No swing animation is used
+Hearts can be attacked to gain additional lives
+Enemy static = king, does not move, killable, goal to kill in game, bleeds green
+Enemy dynamic = princesses(aka pretty zombies)
+3 attack types. Bow and arrow, fire potions, and turn invisible and launch fireballs which cause burn damage over time to enemies
+player starts with 3 lives, marked on the user interface and can obtain two more, one through upper path, and one in the debugRoom
+player starts with 1000 health(done because it's easier to manage with collision), decreases and when hits zero, player dies
+ 
+
